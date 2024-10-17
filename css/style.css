@@ -1,0 +1,529 @@
+/* ここから下に記載していく */
+*{
+    box-sizing: border-box;
+  }
+
+  .title {
+    display: flex;
+    width: 100%;
+    height: 64px;
+
+}
+
+.t1{
+    background-image: url(../img/header_logo.png);
+    width: 40%;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}
+
+.t2 {
+    font-size: 21px;
+    display: flex;
+    width: 60%;
+    height: 64px;
+    justify-content: space-between;
+    padding-top: 26px;
+    margin: 0 60px 0;
+    font-weight: 500;
+}
+
+  .catch {
+    background-image: url(../img/about_01.jpg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 8px auto;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.ct1{
+    padding-top: 80px;
+    line-height: 55px;
+}
+
+.ct11 {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.ct12 {
+    font-size: 25px;
+    color: white;
+}
+
+.about{
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+.ab11 {
+    font-size: 28px;
+    margin: 60px auto 25px;
+    color: orange;
+}
+
+.ab2 {
+    margin: 47px auto;
+    line-height: 40px;
+}
+
+.ab3 {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+
+}
+
+.ab31 {
+    width: 25%;
+    height: auto;
+    background-image: url(../img/about_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ab32 {
+    width: 25%;
+    height: auto;
+    background-image: url(../img/about_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ab33 {
+    width: 25%;
+    height: auto;
+    background-image: url(../img/about_03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ab34 {
+    width: 25%;
+    height: auto;
+    background-image: url(../img/about_04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c {
+    width: 700px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2.course {
+    color: orange;
+    font-size: 28px;
+    margin-top: 70px;
+}
+
+p.c2 {
+    margin: 20px auto;
+}
+.c331 {
+    width: 50%;
+}
+
+.c3333 {
+    display: flex;
+}
+
+.c332 {
+    background-color: #f2efde;
+    padding-top: 85px;
+    width: 50%;
+}
+
+h3.c3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+p.c33 {
+    font-size: 13px;
+    margin: 15px 20px 30px;
+}
+
+.c4444 {
+    display: flex;
+}
+
+.c442 {
+    width: 50%;
+    background-image: url(../img/course_02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c441 {
+    background-color: #f2efde;
+    padding-top: 80px;
+    width: 50%;
+}
+
+h3.c4411 {
+    font-size: 15px;
+    font-weight: bold;
+}
+p.c4412 {
+    font-size: 13px;
+    margin: 15px 20px 60px;
+}
+
+.c5555 {
+    display: flex;
+}
+
+.c551 {
+    width: 50%;
+    background-image: url(../img/course_03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c552 {
+    background-color: #f2efde;
+    padding-top: 80px;
+    width: 50%;
+}
+
+h3.c5511 {
+    font-size: 15px;
+    font-weight: bold;
+}
+p.c5512 {
+    font-size: 13px;
+    margin: 15px 20px 60px;
+}
+
+
+.n1 {
+    height: 80px;
+    text-align: center;
+}
+
+.n11 {
+    font-size: 28px;
+    margin: 60px auto 30px;
+    color: orange;
+}
+
+.n12 {
+    margin-bottom: 60px;
+}
+
+.n2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.n21 {
+    margin: 0 15px;
+}
+
+.n211 {
+    background-image:url(../img/news_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.n2121 {
+    margin: 15px 0 10px;
+}
+
+.n22 {
+    margin: 0 15px;
+}
+
+.n221 {
+    background-image:url(../img/news_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.n2221 {
+    margin: 15px 0 10px;
+}
+
+.n23 {
+    margin: 0 15px;
+}
+
+.n231 {
+    background-image:url(../img/news_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.n2321 {
+    margin: 15px 0 10px;
+}
+.n3 {
+    background-color: #f9d92f;
+    text-align: center;
+    padding-top: 12px;
+    margin: 10px auto;
+    width: 15%;
+    height: 40px;
+    color: white;
+}
+
+.a1 {
+    height: 80px;
+    text-align: center;
+}
+
+.a11 {
+    font-size: 28px;
+    margin: 60px auto 30px;
+    color: orange;
+}
+
+.a12 {
+    margin-bottom: 60px;
+}
+
+.a2 {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.a3 {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.a31 {
+    margin: 0 40px;
+    line-height:30px;
+}
+
+.a32 {
+    margin: 0 40px;
+    line-height:30px;
+}
+
+
+
+.footer {
+    background-color: #707070;
+    color: white;
+    height: 40px;
+    margin: 6px auto;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 13px;
+}
+
+.co1 {
+    height: 200px;
+    text-align: center;
+}
+
+.co11 {
+    font-size: 28px;
+    margin: 60px auto 30px;
+    color: orange;
+}
+
+.co12 {
+    margin-bottom: 20px;
+}
+
+.co13 {
+    margin-bottom: 20px;
+}
+/* .co2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px 30px;
+    border-top: solid 1px #bfbfbf#bfbfbf;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+.co21 {
+    margin: 0 40px;
+    line-height: 45px;
+    width: 40%;
+}
+
+.co22 {
+    margin: 0 40px;
+    line-height: 45px;
+    width: 60%;
+} */
+
+.co3 {
+    text-align: center;
+    padding-top: 12px;
+    margin: 10px auto;
+    width: 15%;
+    height: 40px;
+    color: white;
+}
+
+.co2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.co21 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.co211 {
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co212 {
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co221 {
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co22 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.co222 {
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co23 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.co231 {
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co232 {
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co24 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.co241 {
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co242 {
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co25 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+.co251 {
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co252 {
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co26 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.co261 {
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.co262 {
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
